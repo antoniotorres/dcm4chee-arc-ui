@@ -1,6 +1,6 @@
 FROM thetonio96/wildfly:ffmpeg-24.0.1-15.0.2
 
-ENV DCM4CHEE_ARC_VERSION 5.25.0
+ENV DCM4CHEE_ARC_VERSION 5.24.2
 
 RUN cd $JBOSS_HOME \
     && cd /docker-entrypoint.d/deployments \
